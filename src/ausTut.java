@@ -5,7 +5,7 @@ public class ausTut {
         Internet internetObjekt = new Internet();
         System.out.println("Bitte geben Sie den Namen des Chefs ein: ");
         String temp = input.nextLine();
-        intenetObjekt.setBossName(temp);
+        internetObjekt.setBossName(temp);
         System.out.println("Der Name des Chefs ist: " + internetObjekt.getBossName());
     }
 }
