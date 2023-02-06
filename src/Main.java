@@ -56,14 +56,18 @@ public class Main {
             System.out.println(e);
             System.out.println("");
             for(int p : b) {
-                System.out.println(e);
+                System.out.println(p);
             }
-          //  System.out.println("");
+            System.out.println("");
         }
         for(int i = 0, j = 4; i < 5; i++, j--) {
-            System.out.println(a[j]);
-            b[i] = a[j];
-            System.out.println(b[i]);
+            System.out.println(a[i]);
+            b[j] = a[i];
+            System.out.println(b[j]);
+        }
+        System.out.println("AB HIER!");
+        for(int e: b) {
+            System.out.println(e);
         }
         return 0;
     }
