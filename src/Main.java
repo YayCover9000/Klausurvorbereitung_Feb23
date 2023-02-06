@@ -52,6 +52,14 @@ public class Main {
     private static int copyArray() {
         int[] a = {1, 2, 3, 4, 5};
         int[] b = new int[5];
+        for(int e : a) {
+            System.out.println(e);
+            System.out.println("");
+            for(int p : b) {
+                System.out.println(e);
+            }
+          //  System.out.println("");
+        }
         for(int i = 0, j = 4; i < 5; i++, j--) {
             System.out.println(a[j]);
             b[i] = a[j];
