@@ -1,5 +1,5 @@
 public class Car {
-    private String color; // Farbe des Autos
+    private String currentColor; // Farbe des Autos
     private String brand; // Marke des Autos
     private int horsePower; // PS des Autos
 
@@ -7,11 +7,11 @@ public class Car {
         System.out.println("Das Auto fährt.");
     }
 
-        public String getColor() {
-            return color;
+        public String getCurrentColor() {
+            return currentColor;
         }
-        public void setColor(String color) {
-            this.color = color;
+        public void setCurrentColor(String currentColor) {
+            this.currentColor = currentColor;
         }
         public String getBrand() {
             return brand;
