@@ -1,6 +1,12 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+        Main.copyArray();
+
+
+
+    }
+    private static int multiDimArray() {
         int[] measurments, testseries [], threDimMatrix[][]; // Array of int, Array of Array of int, Array of Array of Array of int
         int[] measurments2 = new int[10]; // Array of 10 int
         int[] measurments3 = {1, 2, 3, 4, 5}; // Array of 5 int
@@ -22,7 +28,7 @@ public class Main {
                 System.out.print(item);
             }
         }
-
+        return 0;
 
     }
     public  class  Kreis {
@@ -43,5 +49,14 @@ public class Main {
             return  Math.PI * radius * radius;
         }
     }
-    privat copy Array
+    private static int copyArray() {
+        int[] a = {1, 2, 3, 4, 5};
+        int[] b = new int[5];
+        for(int i = 0, j = 4; i < 5; i++, j--) {
+            System.out.println(a[j]);
+            b[i] = a[j];
+            System.out.println(b[i]);
+        }
+        return 0;
+    }
 }
