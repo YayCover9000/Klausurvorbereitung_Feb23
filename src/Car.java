@@ -5,6 +5,8 @@ public class Car {
 
     public void drive() {
         System.out.println("Das Auto fährt.");
+    }
+
         public String getColor() {
             return color;
         }
