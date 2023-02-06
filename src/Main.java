@@ -66,6 +66,11 @@ public class Main {
             //System.out.println(b[j]);
         }
         System.out.println("AB HIER!");
+        System.out.println("Array A");
+        for(int e: a) {
+            System.out.println(e);
+        }
+        System.out.println("Array B");
         for(int e: b) {
             System.out.println(e);
         }
