@@ -1,5 +1,47 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+        int[] measurments, testseries [], threDimMatrix[][]; // Array of int, Array of Array of int, Array of Array of Array of int
+        int[] measurments2 = new int[10]; // Array of 10 int
+        int[] measurments3 = {1, 2, 3, 4, 5}; // Array of 5 int
+        int[] ausgabe;
+
+        String[] [] names = {
+                {"Mr.", "Mrs.", "Ms."},
+                {"Smith", "Jones"}
+        };
+        System.out.println(names.length);
+        System.out.println(names[0].length);
+        System.out.println(names[1].length);
+
+        System.out.println(names[0][0] + names[1][0]);
+        System.out.println(names[0][2] + names[1][1]);
+        System.out.println("");
+        for (String[] namesArray : names) {
+            for (String item : namesArray) {
+                System.out.print(item);
+            }
+        }
+
+
     }
+    public  class  Kreis {
+        private  double  radius;
+        public  Kreis ( double  radius) {
+            this .radius = radius;
+        }
+        public  double  getRadius () {
+            return  radius;
+        }
+        public  void  setRadius ( double  radius) {
+            this .radius = radius;
+        }
+        public  double  getUmfang () {
+            return  2 * Math.PI * radius;
+        }
+        public  double  getFlaeche () {
+            return  Math.PI * radius * radius;
+        }
+    }
+    privat copy Array
 }
