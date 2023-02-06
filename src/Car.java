@@ -10,8 +10,8 @@ public class Car {
         public String getColor() {
             return color;
         }
-        public void setColor(String color) {
-            this.color = color;
+        public void setColor(String currentColor) {
+            this.color = currentColor;
         }
         public String getBrand() {
             return brand;
